@@ -1,0 +1,19 @@
+.list {
+  list-style-type: none;
+}
+
+.list__item {
+  display: flex;
+  width: 20%;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.completed {
+  color: green;
+  text-decoration: line-through;
+}
+
+.undone {
+  color: red;
+}
